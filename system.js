@@ -1,6 +1,3 @@
-function printResult(text){
-    document.getElementById('result').innerHTML=text
-}
 function solveSystemEq(){
     let a=document.getElementById('a').value;
     let b=document.getElementById('b').value;
@@ -14,10 +11,10 @@ function solveSystemEq(){
     }
     else if(x>=7.3){
         y=x/b-a*x;
-        printResult('y='+y);
+        alert('y='+y);
     }
     else if(x<7.3){
         y=x/a-b*x;
-        printResult('y='+y);
+        alert('y='+y);
     }
 }

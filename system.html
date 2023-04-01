@@ -6,24 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="system.css">
-    <script src="system.js"> </script>
+    <script src="system.js"></script>
 </head>
 <body>
     <div class="OUT">
         Решите систему уравнения: <br><br>
         <p class="sys">y=<img src="bigg.jpg" style="height:160px;width:38px;position:absolute;top:125px;">
-          &nbsp;&nbsp;&nbsp;<n>x/b-a*x ; x&ge;7.3</n></p>
-        <p class="sys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>x/a-b*x ; x&gt;7.3</n> </p>
+          &nbsp;&nbsp;&nbsp;<n>x/b - a*x ; x&ge;7.3</n></p>
+        <p class="sys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>x/a - b*x ; x&lt;7.3</n> </p>
     </div>
-    <div id="result">
-        <p class="sys">y=<img src="bigg.jpg" style="height:175px;width:38px;position:absolute;bottom:165px;">
-        &nbsp;&nbsp;&nbsp;<input id="x" style="width: 35px;height: 35px; font-size: 30px;"><n>/ (</n>
-          <input id="b" style="width: 35px;height: 35px; font-size: 30px;" ><n> - </n>
-          <input id="a" style="width: 35px;height: 35px; font-size: 30px;"><n> ) ; x&ge;7.3</n></p>
-        <p class="sys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <input id="x" style="width: 35px;height: 35px; font-size: 30px;" >
-          <n>/ ( </n><input id="b"style="width: 35px;height: 35px;font-size: 30px;"><n> - </n>
-          <input id="a"style="width: 35px;height: 35px;font-size: 30px;"><n> ) ; x&gt;7.3</n> </p>
+    <div>
+        <p class="sys">x= <input id="x">; a= <input id="a">; b= <input id="b">.</p> 
+        <button onclick="solveSystemEq()">Результат</button>
     </div>
 </body>
+
 </html>
