@@ -1,0 +1,17 @@
+
+body{
+    text-align: center;
+}
+.OUT{
+    background: white ;
+    display: inline-block;
+    margin: 0 auto;
+    font-size:35px;  
+}
+.sys {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;   
+}
+.a{
+    font-size:80px;    
+}
