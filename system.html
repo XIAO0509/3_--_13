@@ -11,55 +11,19 @@
 <body>
     <div class="OUT">
         Решите систему уравнения: <br><br>
-        <math xmlns='http://www.w3.org/1998/Math/MathML' class="sys">
-            <mi class="sys"> y </mi>
-            <mo class="sys"> = </mo>
-          <mrow class="sys">
-          <mo class="a"> { </mo>
-            <mtable columnalign='left'>
-              <mtr class="sys">
-                <mtd class="sys">
-                  <mfrac class="sys">
-                    <mrow class="sys">
-                      <mi id="x"> x </mi>
-                    </mrow>
-                    <mrow class="sys">
-                      <mi id="b"> b </mi>
-                      <mo> - </mo>
-                      <mi id="a"> a </mi>
-                    </mrow>
-                  </mfrac>
-                  <mo class="sys"> &#x00B7; <!-- middle dot --> </mo>
-                  <mi class="sys"> x </mi>
-                  <mo class="sys"> ; </mo>
-                  <mi class="sys"> x </mi>
-                  <mo class="sys"> &#x2265; <!-- greater-than or equal to --> </mo>
-                  <mn class="sys"> 7.3 </mn>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd class="sys">
-                  <mfrac class="sys">
-                    <mrow class="sys">
-                      <mi id="x"> x </mi>
-                    </mrow>
-                    <mrow class="sys">
-                      <mi id="a"> a </mi>
-                      <mo> - </mo>
-                      <mi id="b"> b </mi>
-                    </mrow>
-                  </mfrac>
-                  <mo class="sys"> &#x00B7; <!-- middle dot --> </mo>
-                  <mi class="sys"> x </mi>
-                  <mo class="sys"> ; </mo>
-                  <mi class="sys"> x </mi>
-                  <mo class="sys"> &lt; </mo>
-                  <mn class="sys"> 7.3 </mn>
-                </mtd>
-              </mtr>
-            </mtable>
-          </mrow>
-          </math>              
+        <p class="sys">y=<img src="bigg.jpg" style="height:160px;width:38px;position:absolute;top:125px;">
+          &nbsp;&nbsp;&nbsp;<n>x/b-a*x ; x&ge;7.3</n></p>
+        <p class="sys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>x/a-b*x ; x&gt;7.3</n> </p>
+    </div>
+    <div id="result">
+        <p class="sys">y=<img src="bigg.jpg" style="height:175px;width:38px;position:absolute;bottom:165px;">
+        &nbsp;&nbsp;&nbsp;<input id="x" style="width: 35px;height: 35px; font-size: 30px;"><n>/ (</n>
+          <input id="b" style="width: 35px;height: 35px; font-size: 30px;" ><n> - </n>
+          <input id="a" style="width: 35px;height: 35px; font-size: 30px;"><n> ) ; x&ge;7.3</n></p>
+        <p class="sys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input id="x" style="width: 35px;height: 35px; font-size: 30px;" >
+          <n>/ ( </n><input id="b"style="width: 35px;height: 35px;font-size: 30px;"><n> - </n>
+          <input id="a"style="width: 35px;height: 35px;font-size: 30px;"><n> ) ; x&gt;7.3</n> </p>
     </div>
 </body>
 </html>
